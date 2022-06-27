@@ -1,0 +1,108 @@
+body {
+
+    min-height: 100px;
+    background: #000000;
+  
+  }
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    height: 60px;
+    align-items: center;
+   
+  }
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .navbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbar a.active {
+    background-color: darkred;
+    color: white;
+  }
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .all {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+  }
+  .h1 {
+    flex: 1;
+    font-size: 30px;
+    display: flex;
+    padding-left: 80px;
+    color: white;
+  }
+.container-5 {
+    width: 100%;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1f 1fr 1fr;
+   padding-left: 100px;
+   }
+  .container-5 .box-4 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+  }
+  .container-5 .box-4 .imgBx-4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s ease-in-out;
+    z-index: 5;
+  }
+  .container-5 .box-4:hover .imgBx-4 {
+    transform: translate(-35px, -35px);
+  }
+  .container-5 .box-4 .imgBx-4 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .container-5 .box-4 .content-tap-4 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgb(94, 4, 4);
+      z-index: 3;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      flex-direction: column;
+      padding: 10px;
+      transition: 0.5s ease-in-out;
+  }
+  .container-5 .box-4:hover .content-tap-4 {
+      transform: translate(35px, 35px);
+    }
+    
+    .href-4{
+  color: rgb(94, 4, 4);
+  text-decoration: none;
+  font-size: 20px;
+  background-color:rgb(0, 0, 0) ;
+  border-radius: 5px;
+  width: 130px;
+  text-align: center;
+    }
