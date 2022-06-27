@@ -66,13 +66,13 @@ body {
   grid-template-rows: 1fr 1fr 1fr ;
 }
 .ico,
-.ico-2 ,.ico-3{
+.ico-2 ,.ico-3,.ico-4,.ico-5{
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 .icons,
-.icons-2,.icons-3 {
+.icons-2,.icons-3,.icons-4,.icons-5 {
   position: relative;
   width: 600px;
   height: 350px;
@@ -84,7 +84,8 @@ body {
 }
 .ci-icons,
 .ci-icons-2 ,
-.ci-icons-3{
+.ci-icons-3,
+.ci-icons-4,.ci-icons-5{
   position: absolute;
   top: 0;
   left: 0;
@@ -95,7 +96,9 @@ body {
 }
 .ci-icons:before,
 .ci-icons-2:before,
-.ci-icons-3:before {
+.ci-icons-3:before,
+.ci-icons-4:before,
+.ci-icons-5:before {
   content: "";
   position: absolute;
   top: 0;
@@ -108,14 +111,18 @@ body {
 }
 .ci-icons:hover:before,
 .ci-icons-2:hover:before,
-.ci-icons-3:hover:before {
+.ci-icons-3:hover:before,
+.ci-icons-4:hover:before,
+.ci-icons-5:hover:before {
   clip-path: circle(400px at center);
   background-color: rgb(80, 2, 2);
   border-radius: 20px;
 }
 .icons img,
 .icons-2 img,
-.icons-3 img {
+.icons-3 img,
+.icons-4 img,
+.icons-5 img {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -126,18 +133,24 @@ body {
 }
 .ci-icons:hover img,
 .ci-icons-2:hover img,
-.ci-icons-3:hover img {
+.ci-icons-3:hover img,
+.ci-icons-4:hover img,
+.ci-icons-5:hover img {
   left: 80%;
   height: 220px;
 }
 .ico,
 .ico-2,
-.ico-3 {
+.ico-3,
+.ico-4,
+.ico-5 {
   padding-top: 100px;
 }
 .content,
 .content-2,
-.content-3 {
+.content-3,
+.content-4,
+.content-5 {
   color: rgb(255, 255, 255);
   position: relative;
   width: 50%;
@@ -150,7 +163,9 @@ body {
 
 .ci-icons:hover .content,
 .ci-icons-2:hover .content-2,
-.ci-icons-3:hover .content-3 {
+.ci-icons-3:hover .content-3,
+.ci-icons-4:hover .content-4,
+.ci-icons-5:hover .content-5 {
   left: 0;
   opacity: 1;
   visibility: visible;
