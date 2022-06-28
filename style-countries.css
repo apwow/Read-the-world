@@ -50,7 +50,7 @@ body {
    display: grid;
    grid-template-columns: 1fr 1fr 1fr;
    grid-template-rows: 1f 1fr 1fr;
-   padding-left: 100px;
+   padding-left: 20px;
    }
   .container-4 .box-3 {
     position: relative;
@@ -68,14 +68,14 @@ body {
     z-index: 5;
   }
   .container-4 .box-3:hover .imgBx-3 {
-    transform: translate(-35px, -35px);
+    transform: translate(-50px, -50px);
   }
   .container-4 .box-3 .imgBx-3 img {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 320px;
+    height: 320px;
     object-fit: cover;
   }
   .container-4 .box-3 .content-tap-3 {
