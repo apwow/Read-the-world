@@ -1,5 +1,5 @@
 body {
-  background-color: #152229;
+  background-color:#152229;
 }
 .navbar {
   background-color: rgb(0, 0, 0);
@@ -22,7 +22,7 @@ body {
   font-size: 17px;
 }
 .navbar a.active {
-  background-color: darkred;
+  background-color: #A27B5C;
   color: white;
 }
 .navbar a:hover {
@@ -39,7 +39,8 @@ body {
   font-size: 30px;
   display: flex;
   padding-left: 80px;
-  color: white;
+  color:#A27B5C;
+  
 }
 .logo {
   width: 280px;
@@ -59,12 +60,15 @@ body {
 .h2 {
   font-size: 40px;
   padding-top: 30px;
+
 }
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
+ 
 }
+
 .ico,
 .ico-2,
 .ico-3,
@@ -111,7 +115,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #3f4e4f;
+  background-color: #b3dbdd;
   transition: 0.5s;
   clip-path: circle(160px at center);
 }
@@ -121,7 +125,7 @@ body {
 .ci-icons-4:hover:before,
 .ci-icons-5:hover:before {
   clip-path: circle(400px at center);
-  background-color: #3f4e4f;
+  background-color:  #b3dbdd;
   border-radius: 20px;
 }
 .icons img,
@@ -158,7 +162,8 @@ body {
 .content-3,
 .content-4,
 .content-5 {
-  color:#DCD7C9;
+  color:#83654d;
+  font-weight: bold;
   position: relative;
   width: 50%;
   height: 100%;
